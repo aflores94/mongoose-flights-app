@@ -1,3 +1,5 @@
+//jshint esversion:6
+
 const Flight = require('../models/flight');
 const Ticket = require('../models/ticket');
 

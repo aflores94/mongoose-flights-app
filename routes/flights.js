@@ -1,6 +1,8 @@
-var express = require('express');
-var router = express.Router();
-var flightsCtlr = require('../controllers/flights');
+//jshint esversion:6
+
+const express = require('express');
+const router = express.Router();
+const flightsCtlr = require('../controllers/flights');
 
 
 router.get('/', flightsCtlr.index);

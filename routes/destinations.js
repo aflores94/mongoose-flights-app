@@ -1,3 +1,5 @@
+//jshint esversion:6
+
 const router = require('express').Router();
 const destinationsCtrl = require('../controllers/destinations');
 
